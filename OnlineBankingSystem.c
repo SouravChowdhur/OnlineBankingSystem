@@ -109,7 +109,7 @@ int main()
                     case 4:
                         printf("Enter the account number to transfer: \n");
                         scanf("%s", &accountnum);
-                        printf("Enter t5he money to be transfered: \n");
+                        printf("Enter the money to be transfered: \n");
                         scanf("%f", &amount);
                         if(amount > xyz.balance){
                             printf("Sorry! Insufficient Money");
